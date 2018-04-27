@@ -1,15 +1,102 @@
 * {
   font-size: 18px;
-  line-height: 1.4;
+  font-family: "Helvitica", sans-serif;
 }
 
 body {
-  font-family: "Helvitica", sans-serif;
   background-color: azure;
+  line-height: 1.4;
+}
+
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  margin-right: 1rem;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .67em 0;
 }
 
 
-.container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
   max-width: 960px;
   margin: 0 auto;
 }
@@ -82,4 +169,4 @@ h1 {
   margin-top: 10rem;
   margin-bottom: 15rem;
   margin-right: 2rem;
-}
+} */
