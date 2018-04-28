@@ -1,10 +1,10 @@
-* {
+html {
   font-size: 18px;
   font-family: "Helvitica", sans-serif;
+  background-color: white;
 }
 
 body {
-  background-color: azure;
   line-height: 1.4;
 }
 
@@ -26,7 +26,7 @@ nav {
   justify-content: space-between;
 }
 
-.container {
+ .container {
   max-width: 960px;
   margin: auto;
 }
@@ -39,6 +39,10 @@ nav div {
 nav img {
   height: 1.5rem;
   margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+nav ul {
   margin-right: 1rem;
 }
 
@@ -64,109 +68,75 @@ header .flex {
 }
 
 .main-banner {
-  background-color: white;
-  padding: 0.75rem 5rem;
   display: inline-block;
+  padding: 1.5rem 5rem;
   margin-top: 10rem;
   margin-right: -2rem;
-  line-height: 2.4rem;
+  background-color: white;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
   margin: .67em 0;
+  line-height: 1.2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-
-.main-banner {
-  background-image: url("../images/glasses-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 30rem;
+.supporting {
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
+  padding-top: 3rem;
+  justify-content: center;
 }
 
 
-.company {
-  display: inline-flex;
-  align-items: center;
-  padding: 1rem 2rem;
+.service {
+  height: 8rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  text-align: center;
 }
 
-.container span {
-  padding-left: 1rem;
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
 }
 
-nav .menu {
-  padding: 1rem 2rem;
-
+.service img.paper-icon {
+  width: 3.5rem;
 }
 
-ul li {
-  display: inline;
-  padding: 0 1rem;
-}
 
-ul {
-  margin-right: 1rem;
-}
 
-header img {
-  height: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 1rem;
-}
-
-header {
+.title {
+  max-width: 10rem;
   background-color: cadetblue;
-  font-size: 1rem;
-  color: white;
-  margin-top: 1rem;
-}
-
-
-.mobile-nav {
-  display: none;
-}
-h1 {
-  line-height: 1.2;
   font-weight: bold;
-  font-size: 2rem;
-  color: black;
-  padding: 1.5rem 5rem;
+  padding: 0.5rem 1.25rem;
+  color: white;
 }
-.main-banner
-.container {
-  background-color: white;
-  margin-top: 10rem;
-  margin-bottom: 15rem;
-  margin-right: 2rem;
-} */
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0 5rem 0;
+}
+
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  margin: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+}
